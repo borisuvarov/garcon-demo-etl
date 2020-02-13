@@ -7,5 +7,7 @@
 4. Run `brew services start redis`.
 
 # Run
-1. Create PyCharm run configurations for decider, worker and exec processes, or run them via commands like this one: `pipenv run python cli.py decider hello_world`.
+1. Create PyCharm run configurations for decider, worker and exec processes:
+![exec with context](https://github.com/borisuvarov/garcon-demo-etl/blob/master/run_configuration_example.png?raw=true)
+(Or run them via commands like this one: `pipenv run python cli.py decider hello_world`).
 2. Run exec process.
